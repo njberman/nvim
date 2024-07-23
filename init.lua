@@ -723,7 +723,7 @@ require('lazy').setup({
     'rose-pine/neovim',
     priority = 1100,
     init = function()
-      ColorMyPencils 'rose-pine-moon'
+      -- ColorMyPencils 'rose-pine-moon'
     end,
   },
 

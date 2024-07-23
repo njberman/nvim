@@ -716,7 +716,7 @@ require('lazy').setup({
     priority = 1000,
     config = true,
     init = function()
-      -- ColorMyPencils 'gruvbox'
+      ColorMyPencils 'gruvbox'
     end,
   },
   {

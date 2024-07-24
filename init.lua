@@ -488,7 +488,7 @@ require('lazy').setup({
             python = {
               analysis = {
                 -- comment out this line if you want type checking
-                typeCheckingMode = 'off',
+                -- typeCheckingMode = 'off',
               },
             },
           },

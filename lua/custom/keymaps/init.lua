@@ -1,3 +1,2 @@
-vim.keymap.set('n', '<leader>print', function()
-  print 'Hello ! this is a test! another test'
-end)
+vim.keymap.set('n', 'gg', 'gg0')
+vim.keymap.set('n', 'G', 'G$')

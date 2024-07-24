@@ -14,4 +14,5 @@ return {
     branch = 'harpoon2',
     dependencieds = { 'nvim-lua/plenary.nvim' },
   },
+  { 'codota/tabnine-nvim', build = './dl_binaries.sh' },
 }

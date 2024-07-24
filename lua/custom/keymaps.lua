@@ -1,3 +1,3 @@
 vim.keymap.set('n', '<leader>print', function()
-  print 'Hello world! this is a test!'
+  print 'Hello world! this is a test! another test'
 end)

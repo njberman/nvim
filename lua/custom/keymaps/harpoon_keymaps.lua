@@ -30,8 +30,9 @@ local function emit_keypress(key)
 end
 
 vim.keymap.set('n', '<leader>Hs', function()
-  toggle_telescope(harpoon:list())
-  emit_keypress '<Esc>'
+  -- toggle_telescope(harpoon:list())
+  -- emit_keypress '<Esc>'
+  harpoon.ui:toggle_quick_menu(harpoon:list())
 end, { desc = 'Open harpoon window' })
 
 vim.keymap.set('n', '<leader>Ha', function()

@@ -846,6 +846,7 @@ require('lazy').setup({
 })
 
 require 'custom.keymaps'
+require 'custom.keymaps.harpoon_keymaps'
 
 -- inoremap jj <ESC>
 -- The line beneath this is called `modeline`. See `:help modeline`

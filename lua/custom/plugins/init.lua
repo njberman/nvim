@@ -9,4 +9,9 @@ return {
       vim.keymap.set('n', '<leader>u', vim.cmd.UndoTreeToggle)
     end,
   },
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    dependencieds = { 'nvim-lua/plenary.nvim' },
+  },
 }

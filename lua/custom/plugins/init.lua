@@ -15,4 +15,13 @@ return {
     dependencieds = { 'nvim-lua/plenary.nvim' },
   },
   { 'ThePrimeagen/vim-be-good' },
+
+  {
+    "mason-org/mason-lspconfig.nvim",
+    opts = {},
+    dependencies = {
+        { "mason-org/mason.nvim", opts = {} },
+        "neovim/nvim-lspconfig",
+    },
+  }
 }

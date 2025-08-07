@@ -729,7 +729,7 @@ require('lazy').setup({
     'rose-pine/neovim',
     priority = 1100,
     init = function()
-      ColorMyPencils 'rose-pine-moon'
+      -- ColorMyPencils 'rose-pine-moon'
     end,
   },
 
@@ -853,6 +853,7 @@ require('lazy').setup({
 
 require 'custom.keymaps'
 require 'custom.keymaps.harpoon_keymaps'
+ColorMyPencils('gruvbox')
 
 -- inoremap jj <ESC>
 -- The line beneath this is called `modeline`. See `:help modeline`

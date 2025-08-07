@@ -24,4 +24,14 @@ return {
       'neovim/nvim-lspconfig',
     },
   },
+  {
+    'prichrd/netrw.nvim',
+    opts = {},
+    config = function()
+      require('netrw').setup {
+        use_devicons = true, -- mini.icons will provide icons
+        mappings = {}, -- customize if needed
+      }
+    end,
+  },
 }
